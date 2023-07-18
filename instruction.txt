@@ -33,3 +33,28 @@ and inside of INSTALLED_APPS add
 (<name of the app>.<selects apps.py file inside of the App>.
 <and from that app file selects ApiConfig class>)
 ////
+and also add 
+////
+'rest_framework'
+////
+another app
+
+#5
+for first time booting up the application
+
+//// 1
+python ./manage.py makemigrations
+////
+//// 2
+python ./manage.py migrate
+////
+
+
+#6
+for runnig the server
+////
+python ./manage.py runserver
+////
+and this will run the server
+
+
