@@ -24,3 +24,12 @@ django-admin startapp api
 we can create multiple app's in a single project.
 after runnig this command there shouldbe a directory named after the App
 
+#4
+to connect the App to our main project
+first go to the project's settings.py
+and inside of INSTALLED_APPS add
+////
+'api.apps.ApiConfig'
+(<name of the app>.<selects apps.py file inside of the App>.
+<and from that app file selects ApiConfig class>)
+////
