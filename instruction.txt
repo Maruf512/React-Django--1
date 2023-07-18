@@ -1,0 +1,26 @@
+#1
+first to create a project/////
+write the command bellow
+////
+django-admin startproject music_controller
+(django-admin <project create command> <project name>)
+////
+
+#2
+change the directory
+go inside the project directory
+////
+cd <project name>
+////
+
+
+#3
+to create an django App
+write the command bellow
+////
+django-admin startapp api
+(django-admin <app create command> <name of the app>)
+////
+we can create multiple app's in a single project.
+after runnig this command there shouldbe a directory named after the App
+
