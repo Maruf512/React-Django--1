@@ -57,4 +57,8 @@ python ./manage.py runserver
 ////
 and this will run the server
 
+================= working with models.py ===================
+all the database related tasks willbe held hear.. like
+creating and deleting user, storing data etc.
+
 
