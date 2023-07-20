@@ -61,4 +61,23 @@ and this will run the server
 all the database related tasks willbe held hear.. like
 creating and deleting user, storing data etc.
 
+#6
+creating another app called frontend for React
+create it along side api app not inside api app
+////
+django-admin startapp frontend
+////
+
+
+#7
+⌨ NPM Setup Commands ⌨ 
+npm init -y
+npm i webpack webpack-cli --save-dev
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+npm i react react-dom --save-dev
+npm install @material-ui/core
+npm install @babel/plugin-proposal-class-properties
+npm install react-router-dom
+npm install @material-ui/icons
+
 
